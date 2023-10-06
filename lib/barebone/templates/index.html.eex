@@ -1,0 +1,13 @@
+<template id="timing-controls-template">
+  <slot name="timer"></slot>
+  <slot name="btn-clear"></slot>
+  <slot name="btn-consume"></slot>
+  <slot name="btn-movement"></slot>
+</template>
+
+<timing-controls hc-define="timing-controls">
+  <div id="timer" slot="timer">You better keep moving!</div>
+  <button id="btn-clear" slot="btn-clear">Clear</button>
+  <button id="btn-consume" slot="btn-consume">Consume</button>
+  <button id="btn-movement" slot="btn-movement">Movement</button>
+</timing-controls>
