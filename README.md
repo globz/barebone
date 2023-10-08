@@ -2,8 +2,10 @@
 
 **TODO: **
 
-+ [x] template macro
++ [x] router macro
++ [x] controller macro
 + [x] render macro
++ [ ] abstract send_resp()
 
 ## Raison d'être
 
