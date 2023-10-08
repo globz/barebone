@@ -2,23 +2,11 @@
 
 **TODO: **
 
-+ [ ] Compile template 
-+ [ ] render_fragment without layout (return html only fragment)
++ [x] template macro
++ [x] render macro
 
-## Installation
+## Raison d'être
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `barebone` to your list of dependencies in `mix.exs`:
+A simple web server demo toy built with Bandit & Plug to teach and learn Elixir with friends!
 
-```elixir
-def deps do
-  [
-    {:barebone, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/barebone>.
 
